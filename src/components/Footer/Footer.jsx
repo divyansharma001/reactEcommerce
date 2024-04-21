@@ -1,6 +1,7 @@
 import React from 'react'
 
 
+
 function Footer() {
   return (
     <>
@@ -14,23 +15,23 @@ function Footer() {
   </aside> 
   <nav>
     <h6 className="footer-title">Services</h6> 
-    <Link className="link link-hover" to='/'>Branding</Link>
-    <Link className="link link-hover" to='/'>Design</Link>
-    <Link className="link link-hover" to='/'>Marketing</Link>
-    <Link className="link link-hover" to='/'>Advertisement</Link>
+    <a className="link link-hover" to='/'>Branding</a>
+    <a className="link link-hover" to='/'>Design</a>
+    <a className="link link-hover" to='/'>Marketing</a>
+    <a className="link link-hover" to='/'>Advertisement</a>
   </nav> 
   <nav>
     <h6 className="footer-title">Company</h6> 
-    <Link className="link link-hover" to='/'>About us</Link>
-    <Link className="link link-hover" to='/'>Contact</Link>
-    <Link className="link link-hover" to='/'>Jobs</Link>
-    <Link className="link link-hover" to='/'>Press kit</Link>
+    <a className="link link-hover" to='/'>About us</a>
+    <a className="link link-hover" to='/'>Contact</a>
+    <a className="link link-hover" to='/'>Jobs</a>
+    <a className="link link-hover" to='/'>Press kit</a>
   </nav> 
   <nav>
     <h6 className="footer-title">Legal</h6> 
-    <Link className="link link-hover"  to='/'>Terms of use</Link>
-    <Link className="link link-hover" to='/'>Privacy policy</Link>
-    <Link className="link link-hover" to='/'>Cookie policy</Link>
+    <a className="link link-hover"  to='/'>Terms of use</a>
+    <a className="link link-hover" to='/'>Privacy policy</a>
+    <a className="link link-hover" to='/'>Cookie policy</a>
   </nav>
 </footer>
     </>
