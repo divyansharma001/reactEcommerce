@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function Navbar() {
   return (
@@ -19,7 +20,7 @@ function Navbar() {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">NexTrove</a>
+    <Link className="btn btn-ghost text-xl" to='/'>NexTrove</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -47,8 +48,8 @@ function Navbar() {
     </div>
     </div>
   <div className="navbar-end">
-    <a className="btn m-2 p-3">Login</a>
-    <a className="btn m-2 p-3">Sign Up</a>
+    <Link className="btn m-2 p-3" to='/login'>Login</Link>
+    <Link className="btn m-2 p-3" to='/signup'>Sign Up</Link>
   </div>
 </div>
   )
